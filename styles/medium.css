@@ -1,0 +1,83 @@
+ @media screen and (max-width: 1024px) {
+    *{
+        background-color: #000;
+        border-radius: .5rem;
+    
+        
+        color: goldenrod;
+    }
+    header{
+        background-color: #000;
+        font-size: 2rem;
+        color: goldenrod;
+
+        
+        color: #fff;
+    }
+     header, h1,p{
+        margin-right: 5rem;
+        font-size: 2rem;
+        color: goldenrod;
+
+    } 
+    header,.ted{
+        font-size: 2rem;
+    }
+
+    .container{
+        
+        padding: 3rem 13rem;
+        width: 40%;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+         grid-template-columns: 1fr 1fr; 
+         gap: 10px; 
+        justify-content: center;
+        
+    
+
+
+        /* padding: 2rem 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 8rem;
+        margin-right: 8rem;
+
+        width: 38%; */
+    }
+    .box,.box-1, .box-2 {
+        
+        margin: .3rem;
+        border-radius: .5rem;
+        color: #fff;
+        background-color: green;
+        border-radius: 6px;
+	    border-bottom: 2px solid#fff;
+	    box-shadow: 0 2px 7px #000;
+        
+        
+        
+    }
+     .prot{
+        font-size: 1.5rem;
+        
+        
+     } 
+    .pro {
+        padding: 0 2rem;
+    }
+    .pro p {
+        font-size: 1.5rem;
+        color: goldenrod;
+        
+        
+    }
+    .pro img{
+        width: 110%;
+    }
+    a{
+        color: red;
+    }
+
+    
+}  

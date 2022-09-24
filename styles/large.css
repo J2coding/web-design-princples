@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    header{
+        
+        border-radius: .5rem;
+        background-color: #367E18;
+        color: #fff;
+    }
+    .ted{
+        font-size: 1.7rem;
+    }
+    .container{
+        
+        padding: 0 .4rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 2px 2px 2px 2px goldenrod;
+        
+        width: 97%;
+    }
+    .box,.box-1, .box-2 {
+        margin:  1.5rem;
+        border-radius: .5rem;
+        background-color: #000;
+        color: #fff;
+        
+        
+        
+    }
+     .prot{
+        font-size: 2rem;
+     }   
+    
+    .pro {
+        padding: 0 2rem;
+    }
+    
+    .pro p {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    
+
+    
+}  
+.footer{
+    position: fixed;
+
+   font-size: 1.4rem;
+  } 
+  
+ 
